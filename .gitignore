@@ -1,0 +1,19 @@
+# Godot
+.godot/
+*.tmp
+/android/
+# Build output
+build/
+*.apk
+*.aab
+*.idsig
+# Keystores (nunca al repositorio)
+*.keystore
+*.jks
+# Export templates / herramientas locales
+export_templates/
+*.tpz
+# Copias temporales de binarios que Godot crea al iniciar
+addons/godotopenxrvendors/.bin/windows/*/*/~*.dll
+# Pruebas automáticas
+tests/out/
